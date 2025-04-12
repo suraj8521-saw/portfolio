@@ -46,14 +46,14 @@ world projects.</p>
         <h1 className='font-bold flex justify-center'>Available on</h1>
        <ul className=' flex space-x-5'>
        <li>
-        <a href="https://facebook.com" target='blank'>   <FaFacebookF className='text-2xl cursor-pointer' /></a>
+        <a href="https://www.facebook.com/share/16S9bYv5WP/" target='blank'>   <FaFacebookF className='text-2xl cursor-pointer' /></a>
       </li>
         <li>
-        <a href="https://Instagram.com" target='blank'>   <FaInstagram  className='text-2xl cursor-pointer' /></a></li>
+        <a href="https://www.instagram.com/suraj_96083?igsh=MThyaDN5MWE2czhybw==" target='blank'>   <FaInstagram  className='text-2xl cursor-pointer' /></a></li>
         <li>
         <a href="https://Telegram.com" target='blank'>  <FaTelegramPlane className='text-2xl cursor-pointer' /></a></li>
         <li>
-        <a href="https://Linkedin .com" target='blank'>  <CiLinkedin  className='text-2xl cursor-pointer'/></a></li>
+        <a href="https://www.linkedin.com/in/suraj-kumar-384182215?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='blank'>  <CiLinkedin  className='text-2xl cursor-pointer'/></a></li>
        </ul>
     </div>
     <div>

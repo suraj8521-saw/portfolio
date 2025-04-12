@@ -8,7 +8,7 @@ import About from './component/About'
 import Portfoliosec from './component/Portfoliosec'
 import Experience from './component/Experience'
 import Footerbotom from './component/Footerbotom'
-import Contact from './component/contact'
+import Contact from './component/Contact'
 import {Toaster} from "react-hot-toast"
 function App() {
   const [count, setCount] = useState(0)
