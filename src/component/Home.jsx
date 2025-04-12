@@ -52,7 +52,7 @@ world projects.</p>
    <div className='flex justify-start flex-col w-[50%] pl-[9%] gap-[1vh] '>
   
         <div className='flex flex-col pl-[11%]'>
-        <div className='text-white h-[3vh] bg-emerald-400 flex items-center justify-center w-[9vw] hover:cursor-pointer '>
+        <div className='text-white h-[3vh] bg-emerald-400 flex items-center justify-center w-[22vw] md:w-[20vw] xl:w-[7vw] hover:cursor-pointer '>
        <Link to="Contact" smooth={true} duration={500}>
          Hire Me
         </Link>
