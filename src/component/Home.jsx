@@ -59,7 +59,7 @@ world projects.</p>
        </div ><h1 className='text-[10px] sm:text-[2.2vw]  md:text-[2vw] xl:text-[1.6vw] pl-[13%]' >Available on </h1>
       
         </div>
-       <ul className=' flex space-x-[4vw] pl-[8%]'>
+       <ul className=' flex space-x-[4vw] pl-[1%]'>
        <li>
         <a href="https://www.facebook.com/share/16S9bYv5WP/" target='blank'>   <FaFacebookF className='text-2xl cursor-pointer bg-gradient-to-r from-blue-800 via-blue-600 to-blue-500  ' /></a>
       </li>
@@ -72,8 +72,8 @@ world projects.</p>
        </ul>
     </div>  
     <div className='flex flex-col w-[50%] pl-[9%] gap-[1vh]'>
-        <h1 className='text-[10px] sm:text-[2.2vw]  md:text-[2vw] xl:text-[1.6vw] pl-[10%]' >Currently working on </h1>
-       <ul className=' flex space-x-[4vw] pl-[10%]'>
+        <h1 className='text-[10px] sm:text-[2.2vw]  md:text-[2vw] xl:text-[1.6vw] pl-[9%]' >Currently working on </h1>
+       <ul className=' flex space-x-[4vw] pl-[1%]'>
        <li> <IoLogoHtml5  className='text-2xl cursor-pointer bg-gradient-to-br from-orange-500 via-orange-600 to-red-600' /></li>
         <li> <RiTailwindCssLine  className='text-2xl  cursor-pointer bg-gradient-to-br from-sky-400 to-cyan-500 '/></li>
         <li><IoLogoJavascript  className='text-2xl  cursor-pointer bg-gradient-to-br from-yellow-300 via-yellow-400 to-yellow-500' /></li>
