@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { RiMenuFold4Fill } from "react-icons/ri";
 import { RxCross2 } from "react-icons/rx";
 import {Link} from "react-scroll"
+import firstimg from "../assets/firstimg.jpg"
 function Navbar() 
  {
 
@@ -34,7 +35,7 @@ function Navbar()
 
    <div className='flex justify-between items-center p-1  h-16'>
 <div className='flex space-x-2'>
-<img src="firstimg.jpg" alt="load error"  className='h-12 w-12 rounded-full'/>
+<img src={firstimg} alt="load error"  className='h-12 w-12 rounded-full'/>
 <h1 className='font-semibold text-xl cursor-pointer'>Suraj
 <p className=' text-sm'>Portfolio</p>
 </h1>
