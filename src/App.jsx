@@ -16,12 +16,12 @@ function App() {
   return (
     <>
       
-     <div className='bg-red-200'>
-     <Navbar/>
+     <div className='bg-gradient-to-r from-neutral-950 via-orange-950 to-zinc-950 min-h-screen '>
+     <Navbar />
      <Home/>
      <About/>
      <Portfoliosec/>
-     <Experience/>
+     <Experience />
      <Contact/>
    <Footerbotom/>
      </div>

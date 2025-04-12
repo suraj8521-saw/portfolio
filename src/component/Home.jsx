@@ -9,20 +9,21 @@ import { IoLogoJavascript } from "react-icons/io";
 import { FaReact } from "react-icons/fa";
 import { ReactTyped } from "react-typed";
 import secondimg from "../assets/secondimg.jpg"
+import { Link } from "react-scroll";
+import Contact from './Contact';
 function Home() {
   
   return (
    <>
    
-   <div name="Home" 
-   style={{backgroundImage:'url(image.png)'}}
-   className=' bg-cover max-w-screen-2xl container mx-auto px-4 md:px-20 my-20  bg-amber-50'>
-    <div className='flex  flex-col md:flex-row'>
-    <div className='md:w-1/2 mt-12 md:mt-20 space-y-2 order-2 md:order-1'>
-    <span className='text-xl'>Hii,</span>
-   <div className='flex space-x-1 text-2xl md:text-4xl'> 
+   <div name="Home" >
+    <div className='flex flex-col  pt-[20%] md:pt-[10%] xl:pt-[9%] pb-[2%]'>
+    <div className='flex flex-col w-[100%] md:flex-row items-center'>
+    <div className=' w-[80%] md:w-[60%] xl:w-[70%] pl-[3%] md:pr-[2%]'>
+    <span className='text-[10px] sm:text-[2.2vw]  md:text-[2vw] xl:text-[1.6vw] text-white' >Hii,</span>
+   <div className='' > 
     
-   <h1>I am <ReactTyped
+   <h1 className='text-[9px] sm:text-[2vw]  md:text-[1.8vw] xl:text-[1.5vw]  text-white'>I am <ReactTyped
          className=' text-red-500'
          strings={["Web Developer", "coder","programmer"]}
          typeSpeed={40}
@@ -33,7 +34,7 @@ function Home() {
    
    </div>
    
-    <p className='text-sm md:text-md text-justify'>Highly motivated and detail-oriented BCA student with a
+    <p className='text-[6px] sm:text-[1.9vw]  md:text-[1.7vw] xl:text-[1.2vw]  text-white'>Highly motivated and detail-oriented BCA student with a
  strong foundation in programming languages (C, C++,java,JavaScript) and
  web development technologies (HTML, CSS, JavaScript,react.js).
  Proficient in complete Java, HTML, and CSS, with intermediate
@@ -41,39 +42,47 @@ function Home() {
  development and eager to apply skills and knowledge in real
 world projects.</p>
     <br />
-   <div className='flex flex-col md:flex-row justify-betweenbdbd space-y-6 md:space-y-0 items-center'>
-   <div className=' space-y-5'>
-        <h1 className='font-bold flex justify-center'>Available on</h1>
-       <ul className=' flex space-x-5'>
+    </div>
+    <div className='w-[50%] md:w-[40%] xl:w-[30%]'>
+    <img src={secondimg} alt="load error"  className='rounded-full w-[80%] h-[30%] md:w-[70%] md:h-[35%]  border-[5px] border-amber-600 shadow-amber-500 shadow-2xl '/>
+    </div>
+    </div>
+    
+    <div  className='flex flex-col gap-[2vh] items-center md:flex-row  text-white'>
+   <div className='flex justify-start flex-col w-[50%] pl-[9%] gap-[1vh] '>
+  
+        <div className='flex flex-col pl-[11%]'>
+        <div className='text-white h-[3vh] bg-emerald-400 flex items-center justify-center w-[9vw] hover:cursor-pointer '>
+       <Link to="Contact" smooth={true} duration={500}>
+         Hire Me
+        </Link>
+       </div><h1 className='text-[10px] sm:text-[2.2vw]  md:text-[2vw] xl:text-[1.6vw]' >Available on </h1>
+      
+        </div>
+       <ul className=' flex space-x-[4vw]'>
        <li>
-        <a href="https://www.facebook.com/share/16S9bYv5WP/" target='blank'>   <FaFacebookF className='text-2xl cursor-pointer' /></a>
+        <a href="https://www.facebook.com/share/16S9bYv5WP/" target='blank'>   <FaFacebookF className='text-2xl cursor-pointer bg-gradient-to-r from-blue-800 via-blue-600 to-blue-500  ' /></a>
       </li>
         <li>
-        <a href="https://www.instagram.com/suraj_96083?igsh=MThyaDN5MWE2czhybw==" target='blank'>   <FaInstagram  className='text-2xl cursor-pointer' /></a></li>
+        <a href="https://www.instagram.com/suraj_96083?igsh=MThyaDN5MWE2czhybw==" target='blank'>   <FaInstagram  className='text-2xl cursor-pointer bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600' /></a></li>
         <li>
-        <a href="https://Telegram.com" target='blank'>  <FaTelegramPlane className='text-2xl cursor-pointer' /></a></li>
+        <a href="https://Telegram.com" target='blank'>  <FaTelegramPlane className='text-2xl cursor-pointer bg-gradient-to-br from-blue-400 via-cyan-500 to-blue-600' /></a></li>
         <li>
-        <a href="https://www.linkedin.com/in/suraj-kumar-384182215?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='blank'>  <CiLinkedin  className='text-2xl cursor-pointer'/></a></li>
+        <a href="https://www.linkedin.com/in/suraj-kumar-384182215?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='blank'>  <CiLinkedin  className='text-2xl cursor-pointer bg-gradient-to-r from-blue-700 via-blue-600 to-blue-500 ' /></a></li>
        </ul>
-    </div>
-    <div>
-    <div className=' space-y-5'>
-        <h1 className='font-bold flex justify-center'>Currently working on </h1>
-       <ul className=' flex space-x-5'>
-       <li> <IoLogoHtml5  className='text-2xl cursor-pointer' /></li>
-        <li> <RiTailwindCssLine  className='text-2xl cursor-pointer'/></li>
-        <li><IoLogoJavascript  className='text-2xl cursor-pointer' /></li>
-        <li> <FaReact  className='text-2xl cursor-pointer'/></li>
+    </div>  
+    <div className='flex flex-col w-[50%] pl-[9%] gap-[1vh]'>
+        <h1 className='text-[10px] sm:text-[2.2vw]  md:text-[2vw] xl:text-[1.6vw]' >Currently working on </h1>
+       <ul className=' flex space-x-[4vw]'>
+       <li> <IoLogoHtml5  className='text-2xl cursor-pointer bg-gradient-to-br from-orange-500 via-orange-600 to-red-600' /></li>
+        <li> <RiTailwindCssLine  className='text-2xl  cursor-pointer bg-gradient-to-br from-sky-400 to-cyan-500 '/></li>
+        <li><IoLogoJavascript  className='text-2xl  cursor-pointer bg-gradient-to-br from-yellow-300 via-yellow-400 to-yellow-500' /></li>
+        <li> <FaReact  className='text-2xl cursor-pointer bg-gradient-to-br from-sky-400 via-cyan-400 to-blue-500 '/></li>
        </ul>
-    </div>
     </div>
    </div>
     </div>
-    <div className='md:w-1/2 md:mt-18 md:ml-20 order-1 mt-8 flex items-center justify-center'>
-    <img src={secondimg} alt=""  className='rounded-full w-80 h-80'/>
-    </div>
-    </div>
-    <br />
+  
     <hr />
     </div>
     
