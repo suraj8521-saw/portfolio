@@ -1,11 +1,12 @@
 import React from 'react'
-import clogo from "../../public/clogo.png";
-import cpluslogo from "../../public/cpluslogo.png"
-import javalogo from "../../public/javalogo.png"
-import cSharp from "../../public/cSharp.png"
-import reactlogo from "../../public/reactlogo.png"
-import html from "../../public/html.png"
-import tailwind from "../../public/tailwind.png"
+import clogo from "../assets/clogo.png"
+import cpluslogo from "../assets/cpluslogo.png"
+import javalogo from "../assets/javalogo.png"
+import cSharp from "../assets/cSharp.png"
+import reactlogo from "../assets/reactlogo.png"
+
+import html from "../assets/html.png"
+import tailwind from "../assets/tailwind.png"
 function Portfoliosec()
  {
 const cardItem=[

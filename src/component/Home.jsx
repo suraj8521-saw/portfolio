@@ -8,6 +8,7 @@ import { RiTailwindCssLine } from "react-icons/ri";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaReact } from "react-icons/fa";
 import { ReactTyped } from "react-typed";
+import secondimg from "../assets/secondimg.jpg"
 function Home() {
   
   return (
@@ -69,7 +70,7 @@ world projects.</p>
    </div>
     </div>
     <div className='md:w-1/2 md:mt-18 md:ml-20 order-1 mt-8 flex items-center justify-center'>
-    <img src="secondimg.jpg" alt=""  className='rounded-full w-80 h-80'/>
+    <img src={secondimg} alt=""  className='rounded-full w-80 h-80'/>
     </div>
     </div>
     <br />
