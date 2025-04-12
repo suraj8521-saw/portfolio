@@ -51,15 +51,15 @@ world projects.</p>
     <div  className='flex flex-col gap-[2vh] items-center md:flex-row  text-white'>
    <div className='flex justify-start flex-col w-[50%] pl-[9%] gap-[1vh] '>
   
-        <div className='flex flex-col pl-[10%]'>
+        <div className='flex flex-col pl-[4%]'>
         <div className='text-white h-[3vh] bg-emerald-400 flex items-center justify-center w-[31vw] md:w-[20vw] xl:w-[7vw] hover:cursor-pointer '>
        <Link to="Contact" smooth={true} duration={500}>
          Hire Me
         </Link>
-       </div ><h1 className='text-[10px] sm:text-[2.2vw]  md:text-[2vw] xl:text-[1.6vw] pl-[15%]' >Available on </h1>
+       </div ><h1 className='text-[10px] sm:text-[2.2vw]  md:text-[2vw] xl:text-[1.6vw] pl-[13%]' >Available on </h1>
       
         </div>
-       <ul className=' flex space-x-[4vw] pl-[12%]'>
+       <ul className=' flex space-x-[4vw] pl-[8%]'>
        <li>
         <a href="https://www.facebook.com/share/16S9bYv5WP/" target='blank'>   <FaFacebookF className='text-2xl cursor-pointer bg-gradient-to-r from-blue-800 via-blue-600 to-blue-500  ' /></a>
       </li>
@@ -72,8 +72,8 @@ world projects.</p>
        </ul>
     </div>  
     <div className='flex flex-col w-[50%] pl-[9%] gap-[1vh]'>
-        <h1 className='text-[10px] sm:text-[2.2vw]  md:text-[2vw] xl:text-[1.6vw] pl-[12%]' >Currently working on </h1>
-       <ul className=' flex space-x-[4vw] pl-[12%]'>
+        <h1 className='text-[10px] sm:text-[2.2vw]  md:text-[2vw] xl:text-[1.6vw] pl-[10%]' >Currently working on </h1>
+       <ul className=' flex space-x-[4vw] pl-[10%]'>
        <li> <IoLogoHtml5  className='text-2xl cursor-pointer bg-gradient-to-br from-orange-500 via-orange-600 to-red-600' /></li>
         <li> <RiTailwindCssLine  className='text-2xl  cursor-pointer bg-gradient-to-br from-sky-400 to-cyan-500 '/></li>
         <li><IoLogoJavascript  className='text-2xl  cursor-pointer bg-gradient-to-br from-yellow-300 via-yellow-400 to-yellow-500' /></li>
