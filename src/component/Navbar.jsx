@@ -5,7 +5,6 @@ import { Link } from "react-scroll";
 import firstimg from "../assets/firstimg.jpg";
 import { FaFileDownload } from "react-icons/fa";
 import Surajresume from "../assets/Surajresume.pdf";
-import { FaUserFriends } from "react-icons/fa";
 function Navbar() {
   const [menu, setmenu] = useState(false);
   const navItems = [
@@ -53,10 +52,8 @@ function Navbar() {
            </Link>
             </div>
             <div className="flex flex-col items-center justify-center pl-[2vw]">
-              <div className="flex flex-row">
               <h2 className="text-[10px] sm:text-[2.2vw]  md:text-[2vw] xl:text-[1.6vw]">Dawnload CV  </h2>
-              <span className=" pl-[2vw]"><FaUserFriends /></span> 
-              </div>
+              
               <button  className='text-white h-[18px] md:h-[3.5vh] xl:h-[3.5vh] bg-emerald-400 flex items-center justify-center w-[28px] md:w-[7vw] xl:w-[6vw] hover:cursor-pointer '>
                 <a href={Surajresume} download={"Surajresume"}><FaFileDownload className="className='h-[2.5vh] w-[2.5vw] bg-gradient-to-br from-black to-blue-800" /></a>
               </button>
