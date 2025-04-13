@@ -32,13 +32,17 @@ function Navbar() {
       <div className="flex flex-row  text-white ">
         <div className="flex flex-row h-[70px] bg-gradient-to-br from-gray-900 via-purple-950 to-blue-900 w-[100%] items-center justify-start pl-[3%] pt-[3%] pb-[3%] fixed top-0 left-0 right-0 absolute ">
           <div className="flex flex-row w-[50%]  ">
-            <a href={"home"}><img
+          
+            <Link to="Home" smooth={true} duration={500} 
+             className="h-[40px] w-[40px] rounded-[50%] hover:cursor-pointer">
+            <img
               className="h-[40px] w-[40px] rounded-[50%] hover:cursor-pointer"
               src={firstimg}
               alt="load error"
-            /></a>
+            />
+        </Link>
             <div className="flex flex-col ml-[2%] hover:cursor-pointer">
-           <a href={"home"}>
+           <a href={"Home"}>
            <h1 className=" text-[10px] sm:text-[2.2vw]  md:text-[2vw] xl:text-[1.6vw]">
               Suraj
               </h1>
