@@ -75,8 +75,8 @@ const cardItem=[
 <h1 className='text-[10px] sm:text-[2.2vw]  md:text-[2vw] xl:text-[1.6vw]  font-bold text-[#FFB300]' >Portfolio</h1>
 <p className='text-[10px] sm:text-[2.2vw]  md:text-[2vw] xl:text-[1.6vw] mt-[1vh]'>Projects , Technology & Features</p>
 </div>
-<div className='space-y-[2vh]' >
-  <div className='flex flex-col xl:h-[18vh]  h-[14vh] md:h-[13vh] bg-zinc-800 border border-orange-700 text-neutral-100 w-[90vw] md:w-[70vw] xl:w-[70vw] py-[2vh]  pl-[2vw] space-y-[1vh] rounded-2xl'>
+<div className='space-y-[2vh] ' >
+  <div className='flex flex-col xl:h-[20vh]  h-[12vh] sm:h-[16vh] md:h-[15vh] bg-zinc-800 border border-orange-700 text-neutral-100 w-[90vw] md:w-[70vw] xl:w-[70vw] py-[2vh]  pl-[2vw] space-y-[1vh] rounded-2xl '>
     <h2 className='text-[10px] sm:text-[2.2vw]  md:text-[2vw] xl:text-[1.6vw]' >Sales Management</h2>
     <p className='text-[10px] sm:text-[2.2vw]  md:text-[2vw] xl:text-[1.6vw]'>Technology & Features: <span className='text-[9px] sm:text-[2vw]  md:text-[1.8vw] xl:text-[1.5vw]'>
       
@@ -88,13 +88,13 @@ const cardItem=[
                loop={true}
              /></span></p>
     <div className='flex flex-row gap-[4vw]' >
-    <TbBrandCSharp  className='h-[2.5vh] w-[2.5vw] bg-gradient-to-br from-purple-600 via-indigo-600 to-blue-600'/>
+    <TbBrandCSharp  className='h-[2.5vh] w-[2.5vw] bg-gradient-to-br from-purple-600 via-indigo-600 to-blue-600 '/>
     <SiMysql className='h-[2.5vh] w-[2.5vw] bg-gradient-to-br from-blue-500 via-blue-600 to-blue-700' />
     <FaSms className='h-[2.5vh] w-[2.5vw] bg-gradient-to-br from-blue-400 via-teal-400 to-green-400 ' />
     <FcPrint  className='h-[2.5vh] w-[2.5vw] bg-gradient-to-br from-gray-300 via-gray-400 to-gray-500'/>
     </div>
   </div>
-  <div className='flex flex-col xl:h-[18vh]  h-[14vh] md:h-[13vh] bg-zinc-800 border border-orange-700 text-neutral-100 w-[90vw] md:w-[70vw] xl:w-[70vw] py-[2vh]  pl-[2vw] space-y-[1vh] rounded'>
+  <div className='flex flex-col xl:h-[20vh]  h-[12vh] sm:h-[16vh] md:h-[15vh] bg-zinc-800 border border-orange-700 text-neutral-100 w-[90vw] md:w-[70vw] xl:w-[70vw] py-[2vh]  pl-[2vw] space-y-[1vh] rounded-2xl '>
     <h2 className='text-[10px] sm:text-[2.2vw]  md:text-[2vw] xl:text-[1.6vw]' >Portfolio</h2>
     <p className='text-[10px] sm:text-[2.2vw]  md:text-[2vw] xl:text-[1.6vw]'>Technology & Features: <span className='text-[9px] sm:text-[2vw]  md:text-[1.8vw] xl:text-[1.5vw]'>
     <ReactTyped

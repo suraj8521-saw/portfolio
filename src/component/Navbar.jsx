@@ -3,6 +3,8 @@ import { RiMenuFold4Fill } from "react-icons/ri";
 import { RxCross2 } from "react-icons/rx";
 import { Link } from "react-scroll";
 import firstimg from "../assets/firstimg.jpg";
+import { FaFileDownload } from "react-icons/fa";
+import Surajresume from "../assets/Surajresume.pdf";
 function Navbar() {
   const [menu, setmenu] = useState(false);
   const navItems = [
@@ -49,7 +51,12 @@ function Navbar() {
               <p className=" text-[10px] sm:text-[2vw] md:text-[1.8vw] xl:text-[1.4vw]">Portfolio</p>
            </Link>
             </div>
-            
+            <div className="flex flex-col items-center justify-center pl-[2vw]">
+              <h2 className="text-[10px] sm:text-[2.2vw]  md:text-[2vw] xl:text-[1.6vw]">Dawnload CV</h2>
+              <button  className='text-white h-[18px] md:h-[3.5vh] xl:h-[3.5vh] bg-emerald-400 flex items-center justify-center w-[28px] md:w-[7vw] xl:w-[6vw] hover:cursor-pointer '>
+                <a href={Surajresume} download={"Surajresume"}><FaFileDownload className="className='h-[2.5vh] w-[2.5vw] bg-gradient-to-br from-black to-blue-800" /></a>
+              </button>
+            </div>
           </div>
           <div className=" hidden md:block w-[50%] ">
             <ul className=" flex flex-row gap-[8%] justify-end pr-[10%] font-bold  text-[2vw] xl:text-[1.5vw] hover:cursor-pointer">
