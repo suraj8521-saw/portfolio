@@ -88,7 +88,7 @@ const cardItem=[
                backSpeed={50}
                loop={true}
              /></span></p>
-    <div className='flex flex-col md:gap-[1vw] gap-[1vw]  md:flex-row mt-0 md:mt-[5vh] sm:flex-col xl:flex-row' >
+    <div className='flex flex-col md:gap-[1vw] gap-[1vw]  md:flex-row mt-0 md:mt-[20px] sm:flex-col xl:flex-row' >
     <TbBrandCSharp  className='h-[20px] w-[25px] md:h-[30px] md:w-[30px] bg-gradient-to-br from-purple-600 via-indigo-600 to-blue-600 '/>
     <SiMysql className='h-[20px] w-[25px] md:h-[30px] md:w-[30px]bg-gradient-to-br from-blue-500 via-blue-600 to-blue-700' />
     <FaSms className='h-[20px] w-[25px] md:h-[30px] md:w-[30px]bg-gradient-to-br from-blue-400 via-teal-400 to-green-400 ' />
@@ -106,7 +106,7 @@ const cardItem=[
                loop={true}
              />
       </span></p>
-    <div className='flex flex-col md:gap-[1vw] gap-[1vw]  md:flex-row mt-0 md:mt-[5vh] sm:flex-col xl:flex-row'>
+    <div className='flex flex-col md:gap-[1vw] gap-[1vw]  md:flex-row mt-0 md:mt-[20px] sm:flex-col xl:flex-row'>
     <FaHtml5 className='h-[20px] w-[25px] md:h-[30px] md:w-[30px]   bg-gradient-to-br from-orange-500 via-orange-600 to-red-600' />
     <TbBrandJavascript className='h-[30px] w-[30px] bg-gradient-to-br from-yellow-300 via-yellow-400 to-yellow-500' />
     <FaReact className='h-[20px] w-[23px] md:h-[25px] md:w-[25px] bg-gradient-to-br from-sky-400 via-cyan-400 to-blue-500' />
