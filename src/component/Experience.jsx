@@ -59,14 +59,16 @@ const cardItem=[
       <div className='overflow-hidden px-[3vw]'>
         <h1 className='text-[10px] sm:text-[2.8vw]  md:text-[2vw] xl:text-[1.6vw] font-bold 	text-purple-400' >Experience</h1>
         <span className='text-[9px] sm:text-[2vw]  md:text-[1.8vw] xl:text-[1.5vw] underline'>Experience and sumarry</span>
-        <div className='grid grid-cols-1  md:grid-cols-2 xl:grid-cols-4 gap-3 my-5 '>
+        <div className='grid grid-cols-1  md:grid-cols-2 xl:grid-cols-4 gap-3 my-5 px-[5vw] '>
         {
           cardItem.map(({id,logo,name,para})=>(
-            <div  className='w-[90vw] h-[23vh] md:w-[45vw] md:h-[34vh] xl:w-[23vw] xl:h-[35vh] border-[3px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-105  duration-300 ' key={id}>
-              <img src={logo}className='h-[13vh] w-[23vw] rounded-full md:h-[20vh] md:w-[22vw] xl:h-[20vh] xl:w-[10vw] ' alt=" load error" />
+            <div  className='w-[90vw] h-[200px] md:w-[320px] md:h-[300px] xl:w-[270px] xl:h-[280px] border-[3px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-105  duration-300   pt-[3vh] flex flex-col item-center justify-center' key={id}>
+             <div className='flex items-center justify-center'>
+             <img src={logo} className=' h-[100px] w-[100px] rounded-full md:h-[120px] md:w-[120px] xl:h-[100px] xl:w-[100px]  ' alt=" load error " />
+             </div>
               <div>
-                <div  className='text-[10px] sm:text-[2.2vw]  md:text-[2vw] xl:text-[1.6vw] font-bold  	text-orange-400'>{name}</div>
-              <p className='text-[6px] sm:text-[1.9vw]  md:text-[1.7vw] xl:text-[1.2vw]'>{para}</p>
+                <div  className='text-[10px] sm:text-[2.2vw]  md:text-[2vw] xl:text-[1.6vw] font-bold  	text-orange-400 flex items-center justify-center'>{name}</div>
+              <p className='text-[6px] sm:text-[1.9vw]  md:text-[1.7vw] xl:text-[1.2vw] px-[2vw] flex items-center justify-center'>{para}</p>
               </div>
              
             </div>

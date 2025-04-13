@@ -15,7 +15,7 @@ import { FcPrint } from "react-icons/fc";
 import { ReactTyped } from "react-typed";
 function Portfoliosec()
  {
-
+ 
 const cardItem=[
   {
     id:1,
@@ -75,8 +75,9 @@ const cardItem=[
 <h1 className='text-[10px] sm:text-[2.2vw]  md:text-[2vw] xl:text-[1.6vw]  font-bold text-[#FFB300]' >Portfolio</h1>
 <p className='text-[10px] sm:text-[2.2vw]  md:text-[2vw] xl:text-[1.6vw] mt-[1vh]'>Projects , Technology & Features</p>
 </div>
+
 <div className='space-y-[2vh] ' >
-  <div className='flex flex-col xl:h-[20vh]  h-[12vh] sm:h-[16vh] md:h-[15vh] bg-zinc-800 border border-orange-700 text-neutral-100 w-[90vw] md:w-[70vw] xl:w-[70vw] py-[2vh]  pl-[2vw] space-y-[1vh] rounded-2xl '>
+  <div className='flex flex-col xl:h-[175px]  h-[165px] sm:h-[175px] md:h-[180px] bg-zinc-800 border border-orange-700 text-neutral-100 w-[90vw] md:w-[70vw] xl:w-[70vw] py-[2vh]  pl-[2vw] space-y-[1vh] rounded-2xl '>
     <h2 className='text-[10px] sm:text-[2.2vw]  md:text-[2vw] xl:text-[1.6vw]' >Sales Management</h2>
     <p className='text-[10px] sm:text-[2.2vw]  md:text-[2vw] xl:text-[1.6vw]'>Technology & Features: <span className='text-[9px] sm:text-[2vw]  md:text-[1.8vw] xl:text-[1.5vw]'>
       
@@ -87,14 +88,14 @@ const cardItem=[
                backSpeed={50}
                loop={true}
              /></span></p>
-    <div className='flex flex-row gap-[4vw]' >
-    <TbBrandCSharp  className='h-[2.5vh] w-[2.5vw] bg-gradient-to-br from-purple-600 via-indigo-600 to-blue-600 '/>
-    <SiMysql className='h-[2.5vh] w-[2.5vw] bg-gradient-to-br from-blue-500 via-blue-600 to-blue-700' />
-    <FaSms className='h-[2.5vh] w-[2.5vw] bg-gradient-to-br from-blue-400 via-teal-400 to-green-400 ' />
-    <FcPrint  className='h-[2.5vh] w-[2.5vw] bg-gradient-to-br from-gray-300 via-gray-400 to-gray-500'/>
+    <div className='flex flex-col md:gap-[1vw] gap-[1vw]  md:flex-row mt-0 md:mt-[5vh] sm:flex-col xl:flex-row' >
+    <TbBrandCSharp  className='h-[20px] w-[25px] md:h-[30px] md:w-[30px] bg-gradient-to-br from-purple-600 via-indigo-600 to-blue-600 '/>
+    <SiMysql className='h-[20px] w-[25px] md:h-[30px] md:w-[30px]bg-gradient-to-br from-blue-500 via-blue-600 to-blue-700' />
+    <FaSms className='h-[20px] w-[25px] md:h-[30px] md:w-[30px]bg-gradient-to-br from-blue-400 via-teal-400 to-green-400 ' />
+    <FcPrint  className='h-[20px] w-[25px] md:h-[30px] md:w-[30px]bg-gradient-to-br from-gray-300 via-gray-400 to-gray-500'/>
     </div>
   </div>
-  <div className='flex flex-col xl:h-[20vh]  h-[12vh] sm:h-[16vh] md:h-[15vh] bg-zinc-800 border border-orange-700 text-neutral-100 w-[90vw] md:w-[70vw] xl:w-[70vw] py-[2vh]  pl-[2vw] space-y-[1vh] rounded-2xl '>
+  <div className='flex flex-col xl:h-[175px]  h-[175px] sm:h-[175px] md:h-[180px] bg-zinc-800 border border-orange-700 text-neutral-100 w-[90vw] md:w-[70vw] xl:w-[70vw] py-[2vh]  pl-[2vw] space-y-[1vh] rounded-2xl '>
     <h2 className='text-[10px] sm:text-[2.2vw]  md:text-[2vw] xl:text-[1.6vw]' >Portfolio</h2>
     <p className='text-[10px] sm:text-[2.2vw]  md:text-[2vw] xl:text-[1.6vw]'>Technology & Features: <span className='text-[9px] sm:text-[2vw]  md:text-[1.8vw] xl:text-[1.5vw]'>
     <ReactTyped
@@ -105,11 +106,11 @@ const cardItem=[
                loop={true}
              />
       </span></p>
-    <div className='flex flex-row gap-[4vw] '>
-    <FaHtml5 className='h-[2.5vh] w-[2.5vw]  bg-gradient-to-br from-orange-500 via-orange-600 to-red-600' />
-    <TbBrandJavascript className='h-[2.5vh] w-[2.5vw] bg-gradient-to-br from-yellow-300 via-yellow-400 to-yellow-500' />
-    <FaReact className='h-[2.5vh] w-[2.5vw] bg-gradient-to-br from-sky-400 via-cyan-400 to-blue-500' />
-    <RiTailwindCssFill className='h-[2.5vh] w-[2.5vw] bg-gradient-to-br from-sky-400 to-cyan-500' />
+    <div className='flex flex-col md:gap-[1vw] gap-[1vw]  md:flex-row mt-0 md:mt-[5vh] sm:flex-col xl:flex-row'>
+    <FaHtml5 className='h-[20px] w-[25px] md:h-[30px] md:w-[30px]   bg-gradient-to-br from-orange-500 via-orange-600 to-red-600' />
+    <TbBrandJavascript className='h-[30px] w-[30px] bg-gradient-to-br from-yellow-300 via-yellow-400 to-yellow-500' />
+    <FaReact className='h-[20px] w-[23px] md:h-[25px] md:w-[25px] bg-gradient-to-br from-sky-400 via-cyan-400 to-blue-500' />
+    <RiTailwindCssFill className=' h-[20px] w-[23px] md:h-[30px] md:w-[30px] bg-gradient-to-br from-sky-400 to-cyan-500' />
     </div>
   </div>
 </div>
