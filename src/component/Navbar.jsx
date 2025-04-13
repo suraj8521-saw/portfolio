@@ -42,12 +42,12 @@ function Navbar() {
             />
         </Link>
             <div className="flex flex-col ml-[2%] hover:cursor-pointer">
-           <a href={"Home"}>
+           <Link to="Home" smooth={true} duration={500} >
            <h1 className=" text-[10px] sm:text-[2.2vw]  md:text-[2vw] xl:text-[1.6vw]">
               Suraj
               </h1>
               <p className=" text-[10px] sm:text-[2vw] md:text-[1.8vw] xl:text-[1.4vw]">Portfolio</p>
-           </a>
+           </Link>
             </div>
             
           </div>
