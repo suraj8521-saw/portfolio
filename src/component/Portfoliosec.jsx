@@ -77,7 +77,7 @@ const cardItem=[
 </div>
 
 <div className='space-y-[2vh] ' >
-  <div className='flex flex-col xl:h-[175px]  h-[165px] sm:h-[175px] md:h-[180px] bg-zinc-800 border border-orange-700 text-neutral-100 w-[90vw] md:w-[70vw] xl:w-[70vw] py-[2vh]  pl-[2vw] space-y-[1vh] rounded-2xl '>
+  <div className='flex flex-col xl:h-[175px]  h-[165px] sm:h-[195px] md:h-[180px] bg-zinc-800 border border-orange-700 text-neutral-100 w-[90vw] md:w-[70vw] xl:w-[70vw] py-[2vh]  pl-[2vw] space-y-[1vh] rounded-2xl '>
     <h2 className='text-[10px] sm:text-[2.2vw]  md:text-[2vw] xl:text-[1.6vw]' >Sales Management</h2>
     <p className='text-[10px] sm:text-[2.2vw]  md:text-[2vw] xl:text-[1.6vw]'>Technology & Features: <span className='text-[9px] sm:text-[2vw]  md:text-[1.8vw] xl:text-[1.5vw]'>
       
@@ -95,7 +95,7 @@ const cardItem=[
     <FcPrint  className='h-[20px] w-[25px] md:h-[30px] md:w-[30px]bg-gradient-to-br from-gray-300 via-gray-400 to-gray-500'/>
     </div>
   </div>
-  <div className='flex flex-col xl:h-[175px]  h-[175px] sm:h-[175px] md:h-[180px] bg-zinc-800 border border-orange-700 text-neutral-100 w-[90vw] md:w-[70vw] xl:w-[70vw] py-[2vh]  pl-[2vw] space-y-[1vh] rounded-2xl '>
+  <div className='flex flex-col xl:h-[175px]  h-[175px] sm:h-[205px] md:h-[180px] bg-zinc-800 border border-orange-700 text-neutral-100 w-[90vw] md:w-[70vw] xl:w-[70vw] py-[2vh]  pl-[2vw] space-y-[1vh] rounded-2xl '>
     <h2 className='text-[10px] sm:text-[2.2vw]  md:text-[2vw] xl:text-[1.6vw]' >Portfolio</h2>
     <p className='text-[10px] sm:text-[2.2vw]  md:text-[2vw] xl:text-[1.6vw]'>Technology & Features: <span className='text-[9px] sm:text-[2vw]  md:text-[1.8vw] xl:text-[1.5vw]'>
     <ReactTyped
